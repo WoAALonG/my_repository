@@ -1,0 +1,154 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* здесь взяли шрифты с google fonts  */
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    /* max-width: 1170px; */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+   padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 100px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+}
+.right > li{
+    padding-left: 0px;
+    color: black;
+}
+
+/* main */
+.main-wrapper{
+   padding-top: 15px;
+    padding-left: 50px;
+}
+
+.main-box{
+    margin-left: 170px;
+    padding: 30px 25px;
+    padding-bottom: 40px;
+     /* padding-left: 250px; */
+     display: flex;
+     justify-content: space-between;
+     /* justify-content: left; */
+     margin-bottom: 10px;
+     border: 1px solid rgb(196, 196, 196);
+     border-radius: 25px;
+    margin-right: 170px;
+}
+/* .main-list{
+    padding-right: 50px;
+    margin-right: 100px;
+} */
+.main-content {
+    margin-right: 85px;
+}
+
+.main-text{
+    background-color: #A9A9FD;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+
+}
+.more{
+    background-color: #F1A9FD;
+}
+.description-of-sections
+{
+    /* font-size: 24px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 0px 265px;
+    color: #9999A3;
+}
+.description-of-sections-fix{
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-bottom: 10px;
+} 
+
+/* ==== */
+
+.main-content{
+    max-width: 64%;
+}
+.main-list:nth-child(1n) {
+     color: #9999A3;
+}
+.section-wrapper{
+    padding-left: 150px;
+    margin-left: 170px;
+    padding: 30px 25px;
+    /* padding-bottom: 40px; */
+    margin-bottom: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 25px;
+    margin-right: 170px;
+}
+.skill-box, .language-box {
+    background-color: #e9e7e7;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.text-about-me{
+    padding-bottom: 10px;
+}
+.section-wrapper-end{
+    margin-bottom: 250px;
+}
+
+
+/* нужно добавить стили для контента */
+/* и стилизовать остальные секции */
+
+
+
+
+
+
+
+
+
